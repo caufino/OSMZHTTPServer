@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OSMZHTTPServer</string>
+    <string name="btn1_text">Start HTTP Server</string>
+    <string name="btn2_text">Stop HTTP Server</string>
+    <string name="checkbox_Service">Start with Service</string>
+    <string name="threadsBtn_text">Set Threads</string>
+    <string name="cameraBtn_text">Switch to Camera view</string>
+</resources>

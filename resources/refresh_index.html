@@ -1,0 +1,21 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>OSMZ HTTP Camera</title>
+</head>
+<body>
+	<h1>OSMZ HTTP Camera Site</h1>
+	<h2>Most recent image</h2>
+	<img src="./IMG.jpg" alt="camera_img" />
+	<script type="text/javascript">
+		window.onload = () => playInterval();
+		playInterval = () => {
+			setInterval(() => location.reload(), 10000);
+			if(window.location.pathname.includes("snapshot")){
+				document.getElementById("headline").style.display = "block";
+			}
+			;
+		};
+	</script>
+</body>
+</html>
